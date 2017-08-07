@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   #s.add_runtime_dependency "logstash-codec-plain"
   #s.add_development_dependency 'logstash-devutils'
   # Jar dependencies
-  s.requirements << "jar 'org.elasticsearch:elasticsearch', '1.4.0'"
-  s.add_runtime_dependency 'jar-dependencies'
+#  s.requirements << "jar 'org.elasticsearch:elasticsearch', '1.4.0'"
+#  s.add_runtime_dependency 'jar-dependencies'
 
 end
