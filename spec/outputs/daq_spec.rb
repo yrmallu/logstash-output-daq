@@ -1,12 +1,12 @@
 # encoding: utf-8
 require "logstash/devutils/rspec/spec_helper"
-require "logstash/outputs/oneopsdaq"
+require "logstash/outputs/daq"
 require "logstash/codecs/plain"
 require "logstash/event"
 
-describe LogStash::Outputs::OneopsDaq do
+describe LogStash::Outputs::Daq do
   let(:sample_event) { LogStash::Event.new }
-  let(:output) { LogStash::Outputs::OneopsDaq.new }
+  let(:output) { LogStash::Outputs::Daq.new }
 
   before do
     output.register
