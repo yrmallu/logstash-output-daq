@@ -3,9 +3,9 @@ require "logstash/outputs/base"
 require "logstash/namespace"
 require 'java'
 
-class LogStash::Outputs::OneopsDaq < LogStash::Outputs::Base
+class LogStash::Outputs::Daq < LogStash::Outputs::Base
   milestone 1
-  config_name "oneopsdaq"
+  config_name "daq"
 
   config :cluster_host_port, :validate => :string, :default => "daq:9160"
   config :cluster_name, :validate => :string, :default => "PerfAndLogCluster"
